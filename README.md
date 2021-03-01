@@ -6,42 +6,55 @@ Sistema basado en la versión de CSRNet escrita en PyTorch del artículo [CSRNet
 
 El siguiente conjunto de datos fue modificado para realizar pruebas a escala de grises y la combinación de multitudes.
 
-  - [ShanghaiTech Dataset Modificado]
+  - [ShanghaiTech Dataset Modificado].
  
-  - [ShanghaiTech Dataset Original]
+  - [ShanghaiTech Dataset Original].
 
-# Requisitos
+# Requisitos de Hardware
 
-  - Tarjeta Gráfica Nvidia GTX 1050 o Superior
-  - Python: 3.8
-  - PyTorch: 1.7.0
-  - CUDA: 11.1.74
-  - PyQt5 5.15.2
-  - SQLite 3.31.1
+  - Tarjeta Gráfica Nvidia GTX 1050 4GB o Superior.
+
+# Requisitos de Software
+
+  - Ubuntu: 20.10. 
+    - [Link de descarga Ubuntu 20.10].
+  - Python: 3.8 o Superior.
+    - Lenguaje de programación instalado en Ubuntu 20.10.
+  - CUDA: 11.1.74 o Superior.
+    - [Link de descarga e instalación].
+  - PyCharm.
+    -  [Link de descarga IDE]
+
+  **Instalación de Bibliotecas de Python3**
+
+```sh
+sudo pip3 install -r requirements.txt
+```
   
 # Entrenamiento
 
-Para iniciar el entrenamiento emplear el siguiente comando en la terminal.
+Para iniciar el entrenamiento emplear el siguiente comando en la terminal:
 ```sh
 python3 train.py train.json val.json 0 0
 ```
-En caso de interrupción del entrenamiento emplear el siguiente comando en la terminal.
+En caso de interrupción del entrenamiento emplear el siguiente comando en la terminal:
 ```sh
 python3 train.py -p 0checkpoint.pth.tar train.json val.json 0 0
 ```
+  ***Asegurese que los archivos .json tengan el mismo nombre que en el comando***
   
 # Modelos Entrenados
 
-  - [Modelo Multitudes Densas]
-  - [Modelo Multitudes Dispersas]
-  - [Modelo Combinación Multitudes Densas y Dispersas]
+  - [Modelo Multitudes Densas].
+  - [Modelo Multitudes Dispersas].
+  - [Modelo Combinación Multitudes Densas y Dispersas].
 
 # Implementación
 
 Si desea utilizar este sistema deberá clonar este repositorio y ejecutar el script InterfazGrafica.py. Asegure tener instalado todas las bibliotecas empleadas en cada script.
 
 # Referencias
-Utilización del código fuente con permiso del autor.
+Utilización del código fuente con permiso de los siguientes autores:
 
 CSRNet: Dilated convolutional neural networks for understanding the highly congested scenes.
 
@@ -54,7 +67,7 @@ CSRNet: Dilated convolutional neural networks for understanding the highly conge
   year={2018}}
 ```
 
-ShanghaiTech Dataset.
+ShanghaiTech Dataset: Single-image crowd counting via multi-column convolutional neural network
   
 ```sh
 @inproceedings{zhang2016single,
@@ -72,3 +85,6 @@ ShanghaiTech Dataset.
    [Modelo Multitudes Densas]: <https://drive.google.com/file/d/1rrI4ihhroJsLmJ0FY1NokfsmIwti71t_/view?usp=sharing>
    [Modelo Multitudes Dispersas]: <https://drive.google.com/file/d/1iFhVVBF-GwErBH9FAqM77cU23iJ2iUPC/view?usp=sharing>
    [Modelo Combinación Multitudes Densas y Dispersas]: <https://drive.google.com/file/d/1z5BkYcCFAmX-AFTeNcL6f54J9DRwLdXL/view?usp=sharing>
+   [Link de descarga e instalación]: <https://developer.nvidia.com/cuda-downloads>
+   [Link de descarga Ubuntu 20.10]: <https://ubuntu.com/download/desktop>
+   [Link de descarga IDE]: <https://www.jetbrains.com/es-es/pycharm/>
