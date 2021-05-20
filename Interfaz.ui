@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1020</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1020</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1020</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Estimación de Densidad de Personas a través de Visión por Computador</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Titulo">
+    <property name="geometry">
+     <rect>
+      <x>25</x>
+      <y>0</y>
+      <width>971</width>
+      <height>165</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bauhaus 93</family>
+      <pointsize>39</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferAntialias</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:30pt; font-weight:600;&quot;&gt;ESTIMACIÓN DE DENSIDAD DE PERSONAS &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:30pt; font-weight:600;&quot;&gt;A TRAVÉS DE VISIÓN POR COMPUTADOR&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BotonImagenes">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>480</y>
+      <width>200</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bauhaus 93</family>
+      <pointsize>13</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <stylestrategy>PreferAntialias</stylestrategy>
+     </font>
+    </property>
+    <property name="text">
+     <string>Subir Imagen</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="correo">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>590</y>
+      <width>201</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:9pt; font-weight:400; font-style:italic;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;ddzambranoa@utn.edu.ec&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2021&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>150</y>
+      <width>300</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Recursos/crowd.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>-420</x>
+      <y>-200</y>
+      <width>1451</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Recursos/wave.svg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>-40</x>
+      <y>0</y>
+      <width>1071</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Recursos/Blanco.jpg</pixmap>
+    </property>
+   </widget>
+   <zorder>label_3</zorder>
+   <zorder>label_2</zorder>
+   <zorder>Titulo</zorder>
+   <zorder>BotonImagenes</zorder>
+   <zorder>correo</zorder>
+   <zorder>label</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1020</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuBase_de_Datos">
+    <property name="title">
+     <string>Base de Datos</string>
+    </property>
+    <addaction name="actionHistorial_de_Consultas"/>
+   </widget>
+   <addaction name="menuBase_de_Datos"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSobre">
+   <property name="text">
+    <string>Sobre</string>
+   </property>
+  </action>
+  <action name="actionHistorial_de_Consultas">
+   <property name="text">
+    <string>Historial de Consultas</string>
+   </property>
+  </action>
+  <action name="actionManual_de_Usuario">
+   <property name="text">
+    <string>Manual de Usuario</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
