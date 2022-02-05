@@ -18,9 +18,9 @@ El siguiente conjunto de datos fue modificado para realizar pruebas a escala de 
 
   - Ubuntu: 20.10. 
     - [Link de descarga Ubuntu 20.10].
-  - Python: 3.8 o Superior.
+  - Python: 3.9.
     - Lenguaje de programación instalado en Ubuntu 20.10.
-  - CUDA: 11.1.74 o Superior.
+  - CUDA: 11.1.74.
     - [Link de descarga e instalación].
   - PyCharm.
     -  [Link de descarga IDE]
