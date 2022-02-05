@@ -1,0 +1,5 @@
+Descargar los modelos y colocarlos en la carpeta "Modelos Entrenados"
+
+https://drive.google.com/file/d/1rrI4ihhroJsLmJ0FY1NokfsmIwti71t_/view
+https://drive.google.com/file/d/1iFhVVBF-GwErBH9FAqM77cU23iJ2iUPC/view
+https://drive.google.com/file/d/1z5BkYcCFAmX-AFTeNcL6f54J9DRwLdXL/view
