@@ -1,0 +1,12 @@
+Nombre de la imagen: CONSULTA_4.png
+Aproximación de personas: 209
+Zonas de posibles aglomeraciones: 1
+Modelo seleccionado: Multitudes Combinadas
+Hora de consulta: 12:24:14
+Fecha de consulta: Julio 13, 2021
+Nombre del mapa de densidad: CONSULTA_4_Densidad.png
+Nombre de la imagen binaria: CONSULTA_4_Binaria.png
+Nombre de la imagen numerada: CONSULTA_4_Numerada.png
+Nombre de la imagen con contorno: CONSULTA_4_Contorno.png
+Nombre del mapa de densidad de openCV: CONSULTA_4_Mapa_Calor.png
+Ruta de la carpeta contenedora: D:\Mayo28\Descargas\TrabajoDeGrado/Mapas_De_Densidad/CONSULTA_4_Julio-13-2021_12_24_14

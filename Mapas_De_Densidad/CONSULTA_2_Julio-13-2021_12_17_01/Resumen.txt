@@ -1,0 +1,12 @@
+Nombre de la imagen: CONSULTA_2.png
+Aproximación de personas: 150
+Zonas de posibles aglomeraciones: 21
+Modelo seleccionado: Multitudes Densas
+Hora de consulta: 12:17:01
+Fecha de consulta: Julio 13, 2021
+Nombre del mapa de densidad: CONSULTA_2_Densidad.png
+Nombre de la imagen binaria: CONSULTA_2_Binaria.png
+Nombre de la imagen numerada: CONSULTA_2_Numerada.png
+Nombre de la imagen con contorno: CONSULTA_2_Contorno.png
+Nombre del mapa de densidad de openCV: CONSULTA_2_Mapa_Calor.png
+Ruta de la carpeta contenedora: D:\Mayo28\Descargas\TrabajoDeGrado/Mapas_De_Densidad/CONSULTA_2_Julio-13-2021_12_17_01
